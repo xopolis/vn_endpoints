@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "1053c22f-2b99-4c4f-9493-cc393700ec3f",
+		"name": "vn_pairs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "172.31.10.17:7001/phrases",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"text\": \"Treebanks are often created on top of a corpus that has already been annotated with part-of-speech tags. In turn, treebanks are sometimes enhanced with semantic or other linguistic information.\"\n}"
+				},
+				"url": {
+					"raw": "172.31.10.17:7001/phrases",
+					"host": [
+						"172",
+						"31",
+						"10",
+						"17"
+					],
+					"port": "7001",
+					"path": [
+						"phrases"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
