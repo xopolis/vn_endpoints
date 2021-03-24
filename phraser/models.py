@@ -44,4 +44,4 @@ class LoadModels:
 
     def load_nlp(self):
         """ load_nlp """
-        self.nlp = spacy.load("en_core_web_sm", disable=["parser", "ner"])
+        self.nlp = spacy.load("en_core_web_lg", disable=["parser", "ner"])
