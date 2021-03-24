@@ -12,8 +12,7 @@ class NERTextConversion:
     """
 
     #load spacy language models
-    nlp = spacy.load("en_core_web_sm",disable = ['textcat'])
-    # nlp.add_pipe(nlp.create_pipe("sentencizer"), before='parser')
+    nlp = spacy.load("en_core_web_lg",disable = ['textcat'])
     nlp.add_pipe("sentencizer", before='parser')
     
     assert nlp
