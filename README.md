@@ -17,7 +17,7 @@
 `127.0.0.1:7001/verbnoun`
 
 **Postman-endpoint :**
-`x.x.x.x:7001/verbnoun`
+`172.31.10.17:7001/verbnoun`
 ---------------------------------------
 
 ### input
@@ -44,7 +44,7 @@
 `127.0.0.1:7001/vn_generation_conjugate`
 
 **Postman-endpoint :**
-`x.x.x.x:7001/vn_generation_conjugate`
+`172.31.10.17:7001/vn_generation_conjugate`
 ---------------------------------------
 
 ```
@@ -81,7 +81,7 @@
 `127.0.0.1:7001/sentences`
 
 **Postman-endpoint :**
-`x.x.x.x:7001/sentences`
+`172.31.10.17:7001/sentences`
 ---------------------------------------
 
 ``` json
@@ -104,7 +104,7 @@
 `127.0.0.1:7001/phrases`
 
 **Postman-endpoint :**
-`x.x.x.x:7001/phrases`
+`172.31.10.17:7001/phrases`
 ---------------------------------------
 
 ``` json
